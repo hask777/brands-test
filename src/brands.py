@@ -37,13 +37,15 @@ def parse_brands():
 
         # print(brands_dict)
             list_brands.append(brands_dict)
-    # print(list_brands)
+    
+    print(list_brands)
 
-    brands = "brands.json"
-    with open(brands, 'w', encoding='utf-8') as json_file:
-        json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
+    return list_brands
+    # brands = "brands.json"
+    # with open(brands, 'w', encoding='utf-8') as json_file:
+    #     json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
 
-schedule.every().seconds.do(parse_brands)
+schedule.every(5).seconds.do(parse_brands)
 # schedule.every(10).minutes.do(job)
 # schedule.every().hour.do(job)
 # schedule.every().day.at("10:30").do(job)

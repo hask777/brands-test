@@ -2,8 +2,11 @@ import time
 import requests
 from bs4 import BeautifulSoup
 import json
-from fastapi import FastAPI
+from fastapi import FastAPI, Form, Request
 import schedule
+from typing import Optional
+
+
 
 
 
@@ -45,25 +48,30 @@ def parse_brands():
         # print(brands_dict)
             list_brands.append(brands_dict)
     # print(list_brands)
+    return list_brands
 
-    brands = "brands.json"
-    with open(brands, 'w', encoding='utf-8') as json_file:
-        json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
+    # brands = "brands.json"
+    # with open(brands, 'w', encoding='utf-8') as json_file:
+    #     json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
+
+# def timer():
+#     schedule.every(50).seconds.do(parse_brands())
+#     #     # schedule.every(10).minutes.do(job)
+#     #     # schedule.every().hour.do(job)
+#     #     # schedule.every().day.at("10:30").do(job)
+#     #     # schedule.every(5).to(10).minutes.do(job)
+#     #     # schedule.every().monday.do(job)
+#     #     # schedule.every().wednesday.at("13:15").do(job)
+#     #     # schedule.every().minute.at(":17").do(job)
+
+#     while True:
+#         schedule.run_pending()
+#         time.sleep(1)
+    
+ 
 
 @app.get("/")
 def hello_world():
-    
-    schedule.every().seconds.do(parse_brands())
-    # schedule.every(10).minutes.do(job)
-    # schedule.every().hour.do(job)
-    # schedule.every().day.at("10:30").do(job)
-    # schedule.every(5).to(10).minutes.do(job)
-    # schedule.every().monday.do(job)
-    # schedule.every().wednesday.at("13:15").do(job)
-    # schedule.every().minute.at(":17").do(job)
-
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
     return parse_brands()
+
+
