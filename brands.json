@@ -1,0 +1,238 @@
+[
+    {
+        "name": "acura",
+        "cars_count": 92
+    },
+    {
+        "name": "alfa romeo",
+        "cars_count": 239
+    },
+    {
+        "name": "audi",
+        "cars_count": 4010
+    },
+    {
+        "name": "bmw",
+        "cars_count": 4439
+    },
+    {
+        "name": "buick",
+        "cars_count": 92
+    },
+    {
+        "name": "cadillac",
+        "cars_count": 74
+    },
+    {
+        "name": "chery",
+        "cars_count": 65
+    },
+    {
+        "name": "chevrolet",
+        "cars_count": 721
+    },
+    {
+        "name": "chrysler",
+        "cars_count": 617
+    },
+    {
+        "name": "citroen",
+        "cars_count": 2073
+    },
+    {
+        "name": "dacia",
+        "cars_count": 68
+    },
+    {
+        "name": "daewoo",
+        "cars_count": 327
+    },
+    {
+        "name": "daihatsu",
+        "cars_count": 30
+    },
+    {
+        "name": "dodge",
+        "cars_count": 450
+    },
+    {
+        "name": "fiat",
+        "cars_count": 989
+    },
+    {
+        "name": "ford",
+        "cars_count": 3029
+    },
+    {
+        "name": "geely",
+        "cars_count": 182
+    },
+    {
+        "name": "gmc",
+        "cars_count": 30
+    },
+    {
+        "name": "great wall",
+        "cars_count": 50
+    },
+    {
+        "name": "honda",
+        "cars_count": 1028
+    },
+    {
+        "name": "hyundai",
+        "cars_count": 1505
+    },
+    {
+        "name": "infiniti",
+        "cars_count": 269
+    },
+    {
+        "name": "jaguar",
+        "cars_count": 102
+    },
+    {
+        "name": "jeep",
+        "cars_count": 161
+    },
+    {
+        "name": "kia",
+        "cars_count": 1345
+    },
+    {
+        "name": "lada (ваз)",
+        "cars_count": 1028
+    },
+    {
+        "name": "lancia",
+        "cars_count": 111
+    },
+    {
+        "name": "land rover",
+        "cars_count": 356
+    },
+    {
+        "name": "lexus",
+        "cars_count": 420
+    },
+    {
+        "name": "lifan",
+        "cars_count": 79
+    },
+    {
+        "name": "lincoln",
+        "cars_count": 33
+    },
+    {
+        "name": "mazda",
+        "cars_count": 1752
+    },
+    {
+        "name": "mercedes-benz",
+        "cars_count": 3384
+    },
+    {
+        "name": "mini",
+        "cars_count": 93
+    },
+    {
+        "name": "mitsubishi",
+        "cars_count": 1163
+    },
+    {
+        "name": "nissan",
+        "cars_count": 2059
+    },
+    {
+        "name": "opel",
+        "cars_count": 4004
+    },
+    {
+        "name": "peugeot",
+        "cars_count": 2652
+    },
+    {
+        "name": "pontiac",
+        "cars_count": 43
+    },
+    {
+        "name": "porsche",
+        "cars_count": 157
+    },
+    {
+        "name": "proton",
+        "cars_count": 27
+    },
+    {
+        "name": "renault",
+        "cars_count": 3463
+    },
+    {
+        "name": "rover",
+        "cars_count": 321
+    },
+    {
+        "name": "saab",
+        "cars_count": 132
+    },
+    {
+        "name": "seat",
+        "cars_count": 424
+    },
+    {
+        "name": "skoda",
+        "cars_count": 1229
+    },
+    {
+        "name": "smart",
+        "cars_count": 27
+    },
+    {
+        "name": "ssangyong",
+        "cars_count": 137
+    },
+    {
+        "name": "subaru",
+        "cars_count": 352
+    },
+    {
+        "name": "suzuki",
+        "cars_count": 305
+    },
+    {
+        "name": "tesla",
+        "cars_count": 88
+    },
+    {
+        "name": "toyota",
+        "cars_count": 1987
+    },
+    {
+        "name": "volkswagen",
+        "cars_count": 6725
+    },
+    {
+        "name": "volvo",
+        "cars_count": 1154
+    },
+    {
+        "name": "газ",
+        "cars_count": 208
+    },
+    {
+        "name": "заз",
+        "cars_count": 54
+    },
+    {
+        "name": "москвич",
+        "cars_count": 68
+    },
+    {
+        "name": "уаз",
+        "cars_count": 130
+    },
+    {
+        "name": "эксклюзив",
+        "cars_count": 46
+    }
+]
