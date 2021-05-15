@@ -10,6 +10,7 @@ uvicorn = "*"
 fastapi = "*"
 requests = "*"
 bs4 = "*"
+schedule = "*"
 
 [dev-packages]
 

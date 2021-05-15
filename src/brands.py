@@ -1,9 +1,11 @@
+import schedule
+import time
 import requests
 from bs4 import BeautifulSoup
 import json
 
 def parse_brands():
-
+    # print("I'm working...")
     base_url = 'https://av.by/'
 
     headers = {
@@ -16,30 +18,40 @@ def parse_brands():
     brandlist = soup.find('ul', class_='brandslist')
 
     lis = soup.find_all('li', class_="brandsitem")
-    print(lis)
+    # print(lis)
 
     brands_dict = {}
     list_brands = []
 
     for item in lis:
-        name = item.find('span').text
+        car_name = item.find('span').text
         # print(name)
 
         cars_count = item.find('small').text
         # print(count)
         if int(cars_count) > 25:
-            brands_dict = {
-                'name': name.lower(),
-                'cars_count': int(cars_count)
+            brands_dict ={
+                'name': car_name,
+                'count': cars_count
             }
+
         # print(brands_dict)
             list_brands.append(brands_dict)
     # print(list_brands)
 
-    # brands = "brands.json"
-    # with open(brands, 'w', encoding='utf-8') as json_file:
-    #     json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
+    brands = "brands.json"
+    with open(brands, 'w', encoding='utf-8') as json_file:
+        json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
 
-    return list_brands
+schedule.every().seconds.do(parse_brands)
+# schedule.every(10).minutes.do(job)
+# schedule.every().hour.do(job)
+# schedule.every().day.at("10:30").do(job)
+# schedule.every(5).to(10).minutes.do(job)
+# schedule.every().monday.do(job)
+# schedule.every().wednesday.at("13:15").do(job)
+# schedule.every().minute.at(":17").do(job)
 
-# parse_brands()
+while True:
+    schedule.run_pending()
+    time.sleep(1)
