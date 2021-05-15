@@ -34,7 +34,7 @@ def parse_brands():
             }
         # print(brands_dict)
             list_brands.append(brands_dict)
-    print(list_brands)
+    # print(list_brands)
 
     # brands = "brands.json"
     # with open(brands, 'w', encoding='utf-8') as json_file:
