@@ -40,10 +40,10 @@ def parse_brands():
     
     print(list_brands)
 
-    return list_brands
-    # brands = "brands.json"
-    # with open(brands, 'w', encoding='utf-8') as json_file:
-    #     json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
+    # return list_brands
+    brands = "brands.json"
+    with open(brands, 'w', encoding='utf-8') as json_file:
+        json.dump(list_brands, json_file, ensure_ascii = False, indent =4)
 
 schedule.every(5).seconds.do(parse_brands)
 # schedule.every(10).minutes.do(job)
