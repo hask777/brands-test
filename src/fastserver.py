@@ -71,7 +71,11 @@ def parse_brands():
  
 
 @app.get("/")
-def hello_world():
-    return parse_brands()
+def home_view():
+    return {"av":"parser"}
 
+
+@app.post("/brands")
+def get_brands():
+    return parse_brands()
 
