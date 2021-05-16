@@ -74,9 +74,8 @@ def parse_brands():
 def home_view():
     return {"av":"parser"}
 
-
 @app.post("/brands")
 def get_brands():
     parse_brands()
-    return {"Done": "parse"}
+    return {"data":parse_brands()}
 
