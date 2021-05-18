@@ -1,19 +1,19 @@
 [
     {
         "name": "Acura",
-        "count": "90"
+        "count": "92"
     },
     {
         "name": "Alfa Romeo",
-        "count": "248"
+        "count": "246"
     },
     {
         "name": "Audi",
-        "count": "3993"
+        "count": "3991"
     },
     {
         "name": "BMW",
-        "count": "4408"
+        "count": "4357"
     },
     {
         "name": "Buick",
@@ -25,67 +25,67 @@
     },
     {
         "name": "Chery",
-        "count": "62"
+        "count": "63"
     },
     {
         "name": "Chevrolet",
-        "count": "707"
+        "count": "710"
     },
     {
         "name": "Chrysler",
-        "count": "620"
+        "count": "612"
     },
     {
         "name": "Citroen",
-        "count": "2042"
+        "count": "2040"
     },
     {
         "name": "Dacia",
-        "count": "64"
+        "count": "58"
     },
     {
         "name": "Daewoo",
-        "count": "327"
+        "count": "332"
     },
     {
         "name": "Daihatsu",
-        "count": "28"
+        "count": "30"
     },
     {
         "name": "Dodge",
-        "count": "450"
+        "count": "456"
     },
     {
         "name": "Fiat",
-        "count": "974"
+        "count": "970"
     },
     {
         "name": "Ford",
-        "count": "3004"
+        "count": "3005"
     },
     {
         "name": "Geely",
-        "count": "178"
+        "count": "180"
     },
     {
         "name": "GMC",
-        "count": "29"
+        "count": "30"
     },
     {
         "name": "Great Wall",
-        "count": "52"
+        "count": "51"
     },
     {
         "name": "Honda",
-        "count": "1032"
+        "count": "1006"
     },
     {
         "name": "Hyundai",
-        "count": "1483"
+        "count": "1467"
     },
     {
         "name": "Infiniti",
-        "count": "263"
+        "count": "264"
     },
     {
         "name": "Jaguar",
@@ -93,31 +93,31 @@
     },
     {
         "name": "Jeep",
-        "count": "158"
+        "count": "163"
     },
     {
         "name": "Kia",
-        "count": "1317"
+        "count": "1327"
     },
     {
         "name": "Lada (ВАЗ)",
-        "count": "1025"
+        "count": "1030"
     },
     {
         "name": "Lancia",
-        "count": "111"
+        "count": "105"
     },
     {
         "name": "Land Rover",
-        "count": "357"
+        "count": "358"
     },
     {
         "name": "Lexus",
-        "count": "412"
+        "count": "414"
     },
     {
         "name": "Lifan",
-        "count": "79"
+        "count": "80"
     },
     {
         "name": "Lincoln",
@@ -125,11 +125,11 @@
     },
     {
         "name": "Mazda",
-        "count": "1754"
+        "count": "1769"
     },
     {
         "name": "Mercedes-Benz",
-        "count": "3344"
+        "count": "3322"
     },
     {
         "name": "MINI",
@@ -137,35 +137,35 @@
     },
     {
         "name": "Mitsubishi",
-        "count": "1172"
+        "count": "1168"
     },
     {
         "name": "Nissan",
-        "count": "2029"
+        "count": "2050"
     },
     {
         "name": "Opel",
-        "count": "3969"
+        "count": "3989"
     },
     {
         "name": "Peugeot",
-        "count": "2629"
+        "count": "2631"
     },
     {
         "name": "Pontiac",
-        "count": "41"
+        "count": "40"
     },
     {
         "name": "Porsche",
-        "count": "159"
+        "count": "158"
     },
     {
         "name": "Proton",
-        "count": "27"
+        "count": "30"
     },
     {
         "name": "Renault",
-        "count": "3396"
+        "count": "3387"
     },
     {
         "name": "Rover",
@@ -173,55 +173,55 @@
     },
     {
         "name": "Saab",
-        "count": "127"
+        "count": "132"
     },
     {
         "name": "SEAT",
-        "count": "419"
+        "count": "415"
     },
     {
         "name": "Skoda",
-        "count": "1238"
+        "count": "1223"
     },
     {
         "name": "Smart",
-        "count": "27"
+        "count": "30"
     },
     {
         "name": "SsangYong",
-        "count": "138"
+        "count": "140"
     },
     {
         "name": "Subaru",
-        "count": "351"
+        "count": "349"
     },
     {
         "name": "Suzuki",
-        "count": "303"
+        "count": "295"
     },
     {
         "name": "Tesla",
-        "count": "89"
+        "count": "88"
     },
     {
         "name": "Toyota",
-        "count": "1971"
+        "count": "1958"
     },
     {
         "name": "Volkswagen",
-        "count": "6673"
+        "count": "6617"
     },
     {
         "name": "Volvo",
-        "count": "1157"
+        "count": "1161"
     },
     {
         "name": "ГАЗ",
-        "count": "206"
+        "count": "213"
     },
     {
         "name": "ЗАЗ",
-        "count": "53"
+        "count": "55"
     },
     {
         "name": "Москвич",
@@ -233,6 +233,6 @@
     },
     {
         "name": "Эксклюзив",
-        "count": "49"
+        "count": "48"
     }
 ]

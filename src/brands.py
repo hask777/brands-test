@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import json
 
 def parse_brands():
-    # print("I'm working...")
+    print("I'm working...")
     base_url = 'https://av.by/'
 
     headers = {
